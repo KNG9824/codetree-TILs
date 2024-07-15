@@ -10,6 +10,6 @@ public class Main {
     c=sc.next().charAt(0);
     System.out.println(c);
     System.out.println("%.2f",a);
-    System.out.println("%.2f",b)
+    System.out.println("%.2f",b);
     }
 }
