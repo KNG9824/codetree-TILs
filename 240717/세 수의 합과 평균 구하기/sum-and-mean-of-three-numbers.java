@@ -7,7 +7,8 @@ public class Main {
     int b=sc.nextInt();
     int c=sc.nextInt();
 
-    int sum, avg;
+    int sum;
+    double avg;
     sum=a+b+c;
     avg=sum/3
     System.out.println(sum+"\n"+avg);
