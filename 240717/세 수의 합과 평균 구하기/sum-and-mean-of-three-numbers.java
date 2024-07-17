@@ -10,7 +10,7 @@ public class Main {
     int sum;
     double avg;
     sum=a+b+c;
-    avg=sum/3
+    avg=sum/3;
     System.out.println(sum+"\n"+avg);
     }
 }
