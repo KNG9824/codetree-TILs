@@ -4,9 +4,9 @@ public class Main {
         // 여기에 코드를 작성해주세요.
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
-    int p;
+    
     if(n>=80)
-        Systemout.println("pass");
+        System.out.println("pass");
         else 
         System.out.println((80-n)+" moer score");
 
