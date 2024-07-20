@@ -7,10 +7,10 @@ public class Main {
 
     switch (a/500){
     case 6: System.out.println("book"); break;
-    case 5: 
+    case 5: System.out.println("mask"); break;
     case 4:
     case 3:
-    case 2:System.out.println("mask"); break;
+    case 2:
     case 1: System.out.println("pen"); break;
     default: System.out.println("no");
     }
