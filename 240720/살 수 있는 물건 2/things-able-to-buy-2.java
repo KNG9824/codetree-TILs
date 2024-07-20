@@ -8,9 +8,9 @@ public class Main {
     switch (a/500){
     case 6: System.out.println("book"); break;
     case 5: System.out.println("mask"); break;
-    case 4:
-    case 3:
-    case 2:
+    case 4:System.out.println("mask"); break;
+    case 3:System.out.println("mask"); break;
+    case 2:System.out.println("mask"); break;
     case 1: System.out.println("pen"); break;
     default: System.out.println("no");
     }
