@@ -5,14 +5,14 @@ public class Main {
     Scanner sc=new Scanner(System.in);
     int a=sc.nextInt();
 
-    switch (a/500){
-    case 6: System.out.println("book"); break;
-    case 5: System.out.println("mask"); break;
-    case 4:System.out.println("mask"); break;
-    case 3:System.out.println("mask"); break;
-    case 2:System.out.println("mask"); break;
-    case 1: System.out.println("pen"); break;
-    default: System.out.println("no");
-    }
+    
+    if(a>=3000)
+        System.out.println("book");
+        else if(a<3000&&a>=1000)
+        System.out.println("mask"); 
+        else if(a<1000&& a>=500)
+        System.out.println("pen");
+        else
+        System.out.println("no");   
     }
 }
