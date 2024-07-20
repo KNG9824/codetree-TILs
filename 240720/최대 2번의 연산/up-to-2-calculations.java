@@ -1,17 +1,23 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // 여기에 코드를 작성해주세요.
-    Scanner sc=new Scanner(System.in);
-    int a=sc.nextInt();
-    if(a%2==0)
-        a/=2;
-    else
-        a=(a+1)/2;
-    
-    
-        
-    
-    System.out.println(a);
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+
+        // 첫 번째 과정: 짝수일 때 2로 나누기
+        if (a % 2 == 0) {
+            a /= 2;
+        } else {
+            // 홀수일 때 1을 더하고 2로 나누기
+            a = (a + 1) / 2;
+        }
+
+        // 두 번째 과정: 첫 번째 과정 이후의 결과 처리
+        if (a % 2 != 0) {
+            a = (a + 1) / 2;
+        }
+
+        System.out.println(a);
     }
 }
