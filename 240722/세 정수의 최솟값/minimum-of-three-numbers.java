@@ -6,7 +6,7 @@ public class Main {
     int a=sc.nextInt();
     int b=sc.nextInt();
     int c=sc.nextInt();
-    min=0;
+    int min=0;
     if(a<b){
         if(a<c)
         min=a;
