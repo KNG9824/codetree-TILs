@@ -5,14 +5,14 @@ public class Main {
     Scanner sc=new Scanner(System.in);
     int a=sc.nextInt();
     if(a%3==0)
-        system.out.println("Yes");
+        System.out.println("Yes");
         else
-        system.out.println("No");
+        System.out.println("No");
 
     if(a%5==0)
-        system.out.println("Yes");
+        System.out.println("Yes");
         else
-        system.out.println("No");
+        System.out.println("No");
 
     
     }
