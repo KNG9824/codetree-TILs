@@ -5,7 +5,7 @@ public class Main {
     Scanner sc=new Scanner(System.in);
     int a=sc.nextInt();
     if(a%13==0||a%19==0)
-    System.out.println("Ture");
+    System.out.println("True");
     else
     System.out.println("False");
     }
