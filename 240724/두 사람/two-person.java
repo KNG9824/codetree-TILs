@@ -4,10 +4,10 @@ public class Main {
         // 여기에 코드를 작성해주세요.
     Scanner sc=new Scanner(System.in);
     int aa=sc.nextInt();
-    char as=sc.nextInt();
+    char as=sc.next().charAt(0);
     int ba=sc.nextInt();
-    char bs=sc.nextInt();
-    if((as=='M')&&(aa>=19)||(bs=='M')&&(ba>=19))
+    char bs=sc.next().charAt(0);
+    if(((as=='M')&&(aa>=19))||((bs=='M')&&(ba>=19)))
         System.out.println("1");
     else
         System.out.println("0");
