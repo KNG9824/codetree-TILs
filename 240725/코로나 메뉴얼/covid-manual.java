@@ -10,33 +10,33 @@ public class Main {
     int b=sc.nextInt();
     char cc=sc.next().charAt(0);
     int c=sc.nextInt();
-
+    char A,B,C;
     if(aa=='Y'&&a>=37)
-        char A='A';
+         A='A';
     else if(aa=='N'&&a>=37)
-        char A='B';
+         A='B';
     else if(aa=='Y'&&a<37)
-        char A='C';
+         A='C';
     else
-        char A='D';
+         A='D';
 
     if(bb=='Y'&&b>=37)
-        char B='A';
+         B='A';
     else if(bb=='N'&&b>=37)
-        char B='B';
+         B='B';
     else if(bb=='Y'&&b<37)
-        char B='C';
+         B='C';
     else
-        char B='D';
+         B='D';
     
     if(cc=='Y'&&c>=37)
-        char C='A';
+         C='A';
     else if(cc=='N'&&c>=37)
-        char C='B';
+         C='B';
     else if(cc=='Y'&&c<37)
-        char C='C';
+         C='C';
     else
-        char C='D';
+         C='D';
     
     if(A=='A'&&B=='A'&&C=='A')
         System.out.println("E");
