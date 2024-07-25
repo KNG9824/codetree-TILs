@@ -6,7 +6,7 @@ public class Main {
     int n=sc.nextInt();
     if(n<8&&n%2==1)
        System.out.println("31");
-    else if(n<8%%n%2==0)
+    else if(n<8&&n%2==0)
     {
          if(n==2)
             System.out.println("28");
