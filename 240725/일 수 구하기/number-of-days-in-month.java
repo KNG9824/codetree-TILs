@@ -14,7 +14,7 @@ public class Main {
             System.out.println("30");
     }
     else if(n>=8&&n%2==1)
-    System.out.println("30")
+    System.out.println("30");
     else
     System.out.println("31");
     }
