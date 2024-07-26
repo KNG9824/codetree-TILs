@@ -13,7 +13,7 @@ public class Main {
             else
             mid=c;
         }
-        if(a<b){
+        else if(a<b){
             if(b<c)
             mid=b;
             else
