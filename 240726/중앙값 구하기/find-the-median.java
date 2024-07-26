@@ -6,19 +6,19 @@ public class Main {
         int a=sc.nextInt();
         int b=sc.nextInt();
         int c=sc.nextInt();
-        int mid;
+        int mid=0;
         if(a>b){
-            if(b<c)
-            mid=c;
+            if(a<c)
+            mid=a;
             else
-            mid=b;
+            mid=c;
         }
         if(a<b){
-            if(a<c)
-            mid=c;
+            if(b<c)
+            mid=b;
             else
-            mid=a;
+            mid=c;
         }
-System.out.println(mid);
+        System.out.println(mid);
     }
 }
