@@ -5,18 +5,16 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         // 세 수 입력받기
-        System.out.println("첫 번째 숫자를 입력하세요:");
         int a = sc.nextInt();
-        System.out.println("두 번째 숫자를 입력하세요:");
         int b = sc.nextInt();
-        System.out.println("세 번째 숫자를 입력하세요:");
+        
         int c = sc.nextInt();
 
         // 중간값 찾기
         int middle = findMiddle(a, b, c);
 
         // 결과 출력
-        System.out.println("중간값: " + middle);
+        System.out.println(middle);
     }
 
     public static int findMiddle(int a, int b, int c) {
