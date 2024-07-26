@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
     
         // 여기에 코드를 작성해주세요.
-    Scaner sc=new Scaner(System.in);
+    Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
-    for(int i=n;i<=n*5;i*=n)
-        System.out.print(i+" ");
+    for(int i=1;i<=5;i++)
+        System.out.print(i*n+" ");
     }
 }
