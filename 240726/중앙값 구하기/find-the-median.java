@@ -7,13 +7,14 @@ public class Main {
         int b=sc.nextInt();
         int c=sc.nextInt();
         int mid=0;
-        if(a>b){
+        if(a>b&&c>b){
             if(a<c)
             mid=a;
             else
             mid=c;
         }
-        else if(a<b){
+
+        else if(a<b&&a<c){
             if(b<c)
             mid=b;
             else
