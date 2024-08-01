@@ -1,11 +1,21 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // 여기에 코드를 작성해주세요.
-    Scanner sc=new Scanner(System.in);
-    double a=sc.nextDouble();
-    double b=sc.nextDouble();
-    double h=a/b;
-    System.out.printf("%.20f",h);
+        Scanner sc = new Scanner(System.in);
+       
+        int a = sc.nextInt();
+        
+        int b = sc.nextInt();
+
+        // Perform the division and store the result as a string
+        String result = String.format("%.21f", (double) a / b);
+
+        // Find the position of the 21st decimal place and truncate the result
+        int dotIndex = result.indexOf('.');
+        String truncatedResult = result.substring(0, dotIndex + 21); // 21 decimal places + 1 for the dot
+
+        // Print the result
+        System.out.println(truncatedResult);
     }
 }
