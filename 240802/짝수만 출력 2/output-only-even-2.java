@@ -5,10 +5,10 @@ public class Main {
     Scanner sc=new Scanner(System.in);
     int a=sc.nextInt();
     int b=sc.nextInt();
-    while(a>b){
+    while(a>=b){
         System.out.print(a+" ");
         a-=2;
-        
+
     }
     }
 }
