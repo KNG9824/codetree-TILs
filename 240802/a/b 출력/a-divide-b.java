@@ -3,30 +3,28 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        
+        // 변수 선언
+        int a, b;
 
-        // Perform the division
-        double result = (double) a / b;
+        // 입력
+        a = sc.nextInt();
+        b = sc.nextInt();
 
-        // Convert the result to a string with sufficient precision
-        String resultStr = String.format("%.22f", result);
-
-        // Find the position of the 21st decimal place and truncate the result
-        int dotIndex = resultStr.indexOf('.');
-
-        // We need to check the 22nd decimal place to decide if we need to round down
-        if (resultStr.charAt(dotIndex + 22) >= '5') {
-            // Perform rounding down manually
-            resultStr = resultStr.substring(0, dotIndex + 21) + (char) (resultStr.charAt(dotIndex + 21) + 1);
-        } else {
-            resultStr = resultStr.substring(0, dotIndex + 22);
+        // 정수 부분을 먼저 출력합니다.
+        System.out.print(a / b + ".");
+        
+        // a를 b로 나눈 나머지를 시작으로
+        // 소수점 자리를 하나씩 계산합니다.
+        a %= b;
+        for(int i = 0; i < 20; i++) {
+            // 나머지에 10 곱한 값을 기준으로
+            // b로 나누었을 떄의 몫을 구해줍니다.
+            a *= 10;
+            System.out.print(a / b);
+            
+            // a를 b로 나눈 나머지를 게속 갱신해줍니다.
+            a %= b;
         }
-
-        // Remove trailing zeros and the dot if necessary
-        resultStr = resultStr.replaceAll("0*$", "").replaceAll("\\.$", "");
-
-        // Print the result
-        System.out.println(resultStr);
     }
 }
