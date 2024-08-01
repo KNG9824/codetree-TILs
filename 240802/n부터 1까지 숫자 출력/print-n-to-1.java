@@ -5,8 +5,8 @@ public class Main {
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
     while(n>0){
-        System.out.print(i+" ");
-        i--;
+        System.out.print(n+" ");
+        n--;
     }
     }
 }
