@@ -5,12 +5,12 @@ public class Main {
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
     for(int i=n;i<=100;i++){
-        switch(i){
-            case 100:
-            case 90: System.out.print("A "); break;
-            case 80: System.out.print("B "); break;
-            case 70: System.out.print("C "); break;
-            case 60: System.out.print("D "); break;
+        switch(i/10){
+            case 10:
+            case 9: System.out.print("A "); break;
+            case 8: System.out.print("B "); break;
+            case 7: System.out.print("C "); break;
+            case 6: System.out.print("D "); break;
             default: System.out.print("F ");
         }
     }
