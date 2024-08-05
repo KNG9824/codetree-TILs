@@ -6,7 +6,7 @@ public class Main {
     int[] a=new int[5];
     int cnt=0;
     for(int i=0;i<5;i++){
-        a[i]=sc.nextInt()
+        a[i]=sc.nextInt();
         if(a[i]%2==0)
         cnt++;
     }
