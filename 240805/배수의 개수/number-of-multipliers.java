@@ -8,11 +8,11 @@ public class Main {
     for(int i=0;i<10;i++){
         array[i]=sc.nextInt();
         if(array[i]%3==0)
-        cnt1++;
+        cnt++;
         if(array[i]%5==0)
         cnt2++;
     }
-    System.out.print(cnt1+" "+cnt2);
+    System.out.print(cnt+" "+cnt2);
 
     }
 }
