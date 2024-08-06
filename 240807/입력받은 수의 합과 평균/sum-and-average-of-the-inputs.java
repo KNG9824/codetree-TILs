@@ -11,7 +11,7 @@ public class Main {
         a[i]=sc.nextInt();
         sum+=a[i];
     }
-    avg=sum/10;
+    avg=sum/n;
     System.out.printf("%d %.1f",(int)sum, avg);
     }
 }
