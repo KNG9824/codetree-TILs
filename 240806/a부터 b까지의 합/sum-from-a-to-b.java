@@ -8,6 +8,6 @@ public class Main {
     int sum=0;
     for(int i=a;i<=b;i++)
         sum+=i;
-        System.out.print(i);
+        System.out.print(sum);
             }
 }
