@@ -10,6 +10,6 @@ public class Main {
     sum+=a[i];
     }
     avg=sum/10;
-    System.out.print((int)sum+" "+avg)
+    System.out.print((int)sum+" "+avg);
     }
 }
