@@ -5,9 +5,9 @@ public class Main {
     int a=sc.nextInt();
     int b=sc.nextInt();
     
-    int c=a;
-    for(int i=0;i<(b-1);i++){
-    c=a*c;
+    int c=1;
+    for(int i=0;i<b;i++){
+    c*=a;
     }
         System.out.println(c);
     }
