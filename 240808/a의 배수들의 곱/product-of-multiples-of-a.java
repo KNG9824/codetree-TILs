@@ -9,6 +9,6 @@ public class Main {
             if(i%a==0)
             result*=i;
         }
-        Systm.out.print(result);
+        System.out.print(result);
     }
 }
