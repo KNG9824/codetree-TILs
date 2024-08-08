@@ -5,7 +5,7 @@ public class Main {
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
     int num=1, cnt=0;
-    for(int i=1;i<10;i++){
+    for(int i=1;i<=10;i++){
         num*=i;
         if(num>=n){
             cnt=i;
