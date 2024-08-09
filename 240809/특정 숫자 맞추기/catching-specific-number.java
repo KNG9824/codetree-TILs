@@ -5,9 +5,9 @@ public class Main {
     Scanner sc=new Scanner(System.in);
     while(true){
         int n=sc.nextInt();
-        if(n<25)
+        if(n>25)
         System.out.println("Lower");
-        else if(n>25)
+        else if(n<25)
         System.out.println("Higher");
         else{
             System.out.println("Good");
