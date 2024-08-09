@@ -5,7 +5,7 @@ public class Main {
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
     int cnt=0;
-    while(n>1){
+    while(true){
         if(n>=1000)
         break;
         if(n%2==0){
