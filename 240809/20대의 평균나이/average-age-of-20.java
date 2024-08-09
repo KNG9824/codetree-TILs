@@ -5,8 +5,9 @@ public class Main {
     Scanner sc=new Scanner(System.in);
     double sum=0, avg;
     int cnt=0;
+    int n;
     while(true){
-        int n=sc.nextInt();
+         n=sc.nextInt();
         if(n<30){
         sum+=n;
         cnt++;
