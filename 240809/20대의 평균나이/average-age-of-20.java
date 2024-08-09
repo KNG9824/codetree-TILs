@@ -14,6 +14,7 @@ public class Main {
         else
         break;
     }
+    if(cnt!=0)
     avg=sum/cnt;
     System.out.printf("%.2f",avg);
     }
