@@ -10,7 +10,7 @@ public class Main {
     }
     for(int i=0;i<5;i++){
         if(a[i]%3==0)
-        cnt++l;
+        cnt++;
     }
     if(cnt==5)
     System.out.print("1");
