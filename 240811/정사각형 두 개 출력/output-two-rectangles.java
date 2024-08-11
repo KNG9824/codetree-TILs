@@ -7,13 +7,13 @@ public class Main {
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++)
         System.out.print("*");
-        System.out.pirntln("");
+        System.out.println("");
     }
     System.out.println("");
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++)
         System.out.print("*");
-        System.out.pirntln("");
+        System.out.println("");
     }
     }
 }
