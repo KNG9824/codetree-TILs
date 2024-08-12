@@ -9,7 +9,7 @@ public class Main {
 
         while (true) {
             n = sc.nextInt();
-            if (n >= 30)
+            if (n >= 30||n<20)
                 break;
             sum += n;
             cnt++;
