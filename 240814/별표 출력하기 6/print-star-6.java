@@ -13,7 +13,7 @@ public class Main {
         System.out.println("");
     }
     for(int i=0;i<n-1;i++){
-        for(int p=0;p<n-2*i;p++)
+        for(int p=0;p<2*(n-1)-2*i-2;p++)
         System.out.print(" ");
         for(int j=0;j<3+(2*i);j++){
             System.out.print("* ");
