@@ -10,6 +10,7 @@ public class Main {
             System.out.print(cnt+" ");
             cnt++;
         }
+        System.out.println("");
     }
     }
 }
