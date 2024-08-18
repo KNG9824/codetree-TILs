@@ -6,7 +6,7 @@ public class Main {
     int n=sc.nextInt();
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
-            if(j==n-1)
+            if(j==n)
         System.out.print(i+" * "+j+" = "+i*j);
         else
         System.out.print(i+" * "+j+" = "+i*j+", ");
