@@ -10,7 +10,7 @@ public class Main {
         System.out.print("  ");
         for(int j=0;j<n-i;j++){
         System.out.print(cnt%10+" ");
-        if(cnt==9)
+        if(cnt%10==9)
         cnt+=2;
         else
         cnt++;
