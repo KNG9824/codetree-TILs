@@ -7,6 +7,8 @@ public class Main {
     int x='A';
     for(int i=0;i<n;i++){
         for(int j=0;j<i+1;j++){
+            if(x>90)
+            x='A';
             System.out.print((char)x);
             x++;
         }
