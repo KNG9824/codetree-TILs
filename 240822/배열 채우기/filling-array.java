@@ -9,11 +9,11 @@ public class Main {
         a[i]=sc.nextInt();
         cnt++;
         if(a[i]==0){
-            i=cnt;
+            cnt=i;
         break;
         }
     }
-    for(int j=cnt-2;j>=0;j--)
+    for(int j=cnt-1;j>=0;j--)
     System.out.print(a[j]+" ");
     }
 }
