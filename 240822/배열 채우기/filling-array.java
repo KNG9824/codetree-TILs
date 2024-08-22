@@ -8,8 +8,10 @@ public class Main {
     for(int i=0;i<10;i++){
         a[i]=sc.nextInt();
         cnt++;
-        if(a[i]==0)
+        if(a[i]==0){
+            i=cnt;
         break;
+        }
     }
     for(int j=cnt-2;j>=0;j--)
     System.out.print(a[j]+" ");
