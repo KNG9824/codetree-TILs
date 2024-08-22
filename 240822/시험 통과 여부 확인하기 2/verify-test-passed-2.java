@@ -12,7 +12,7 @@ public class Main {
             a[i][j]=sc.nextInt();
             sum+=a[i][j];
         }
-        if(sum/4>60){
+        if(sum/4>=60){
         System.out.println("pass");
         cnt++;
         }
