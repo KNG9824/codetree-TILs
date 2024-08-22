@@ -9,7 +9,7 @@ public class Main {
         a[i]=sc.nextInt();
         if(i%2!=0)
         sum1+=a[i];
-        else if(i%3==2)
+        if(i%3==2)
         sum2+=a[i];
     }
     avg=sum2/3;
