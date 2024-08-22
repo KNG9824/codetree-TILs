@@ -7,7 +7,7 @@ public class Main {
     for(int i=0;i<10;i++){
         a[i]=sc.next().charAt(0);
         if(i==1||i==4||i==7)
-        System.out.print(a[i]+" ");
+        System.out.print((char)a[i]+" ");
     }
     }
 }
