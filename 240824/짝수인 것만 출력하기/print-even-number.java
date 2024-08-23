@@ -8,7 +8,7 @@ public class Main {
     for(int i=0;i<n;i++){
     a[i]=sc.nextInt();
     if(a[i]%2==0)
-    Sysem.out.pnt(a[i]+" ");
+    System.out.pnt(a[i]+" ");
     }
 
 
