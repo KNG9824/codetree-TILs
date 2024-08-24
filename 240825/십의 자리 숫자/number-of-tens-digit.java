@@ -10,7 +10,7 @@ public class Main {
         int n=sc.nextInt();
         if(n==0)
         break;
-        switch(n%10){
+        switch(n/10){
             case 9:c[8]++; break;
             case 8:c[7]++; break;
             case 7:c[6]++; break;
