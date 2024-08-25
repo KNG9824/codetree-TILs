@@ -9,7 +9,7 @@ public class Main {
     for(int i=0;i<3;i++){
         a[i]=sc.next().charAt(0);
         c[i]=sc.nextInt();
-        if(a[i]=='Y'&&a[i]>=37)
+        if(a[i]=='Y'&&c[i]>=37)
         b[0]++;
         else if(a[i]=='N'&&c[i]>=37)
         b[1]++;
