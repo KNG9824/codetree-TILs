@@ -16,9 +16,10 @@ public class Main {
         }
         else
         cnt++;
-        if(c2==3)
+        if(c2==3){
         tn=i;
+        break;}
     }
-    System.out.print(tn-1);
+    System.out.print(tn+1);
     }
 }
