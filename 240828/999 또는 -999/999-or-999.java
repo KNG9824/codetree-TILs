@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         // 여기에 코드를 작성해주세요.
     Scanner sc=new Scanner(System.in);
-    int max=0;
-    int min=0;
+    int max=-998;
+    int min=998;
     for(int i=0;i<100;i++){
         int n=sc.nextInt();
         if(n==999||n==-999)
