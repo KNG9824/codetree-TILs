@@ -14,6 +14,6 @@ public class Main {
         if(a[i]>500&&a[i]<min)
         min=a[i];
     }
-    System.out.print(max+" "+max2);
+    System.out.print(max+" "+min);
     }
 }
