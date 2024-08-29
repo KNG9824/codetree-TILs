@@ -7,12 +7,12 @@ public class Main {
     for(int i=0;i<10;i++)
     a[i]=sc.nextInt();
     int max=0;
-    int max2=500;
+    int min=999;
     for(int i=0;i<10;i++){
         if(a[i]<500&&a[i]>max)
         max=a[i];
-        if(a[i]>500&&a[i]>max2)
-        max2=a[i];
+        if(a[i]>500&&a[i]<min)
+        min=a[i];
     }
     System.out.print(max+" "+max2);
     }
