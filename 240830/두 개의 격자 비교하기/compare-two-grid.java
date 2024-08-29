@@ -18,9 +18,9 @@ public class Main {
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
             if(a[i][j]==b[i][j])
-            System.out.print("1 ");
-            else
             System.out.print("0 ");
+            else
+            System.out.print("1 ");
             System.out.println();
         }
         
